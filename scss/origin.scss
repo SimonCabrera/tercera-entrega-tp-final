@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import "variables.scss";
+body{
+    width: 100%;
+    background-color: $amarillo;
+    header{
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-style: italic;
+    
+    #titular{
+    font-size: 5rem;}
+    }
+    nav{
+        font-family: $font-nav;
+        font-size: 2rem;
+        ul{
+            li{
+                .nav-link{
+                     color: $negro;
+                }
+            }
+        }
+    }
+    main{
+        
+        font-family: $font-main;
+        element{
+            background-color: white;
+        .primerTitular{ 
+                font-weight: bold;
+                font-style: italic;}
+        .subtittle{
+            font-weight: bold;
+            padding-top: 10px;
+        }    
+        }
+        
+        aside{
+            background-color: white;
+            a{
+                text-decoration: none;
+                color: black;   
+            }
+        }
+    }
+    footer{
+        padding-bottom: 3vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        padding-top: 1vh;
+        .link2{
+            color: black;
+            padding: 2vh;
+        }
+    }
+}    
+

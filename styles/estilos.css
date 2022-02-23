@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 100%;
+  background-color: yellow; }
+  body header {
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-style: italic; }
+    body header #titular {
+      font-size: 5rem; }
+  body nav {
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem; }
+    body nav ul li .nav-link {
+      color: black; }
+  body main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    body main element {
+      background-color: white; }
+      body main element .primerTitular {
+        font-weight: bold;
+        font-style: italic; }
+      body main element .subtittle {
+        font-weight: bold;
+        padding-top: 10px; }
+    body main aside {
+      background-color: white; }
+      body main aside a {
+        text-decoration: none;
+        color: black; }
+  body footer {
+    padding-bottom: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh; }
+    body footer .link2 {
+      color: black;
+      padding: 2vh; }
