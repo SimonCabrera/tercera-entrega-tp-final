@@ -601,8 +601,8 @@ progress {
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
+  /* border: 1px solid #dee2e6;
+  border-radius: 0.25rem; */
   max-width: 100%;
   height: auto;
 }
@@ -629,10 +629,10 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+  /* padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem); */
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 
 @media (min-width: 576px) {
@@ -739,7 +739,7 @@ progress {
 
 .col-4 {
   flex: 0 0 auto;
-  width: 33.33333333%;
+  width: 33.3333333%;
 }
 
 .col-5 {
@@ -5072,7 +5072,7 @@ textarea.form-control-lg {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
-  color: #212529;
+  /* color: #212529; */
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);

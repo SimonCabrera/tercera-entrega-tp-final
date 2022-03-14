@@ -3,59 +3,120 @@
     margin: 0;
 }
 @import "variables.scss";
+
+ 
 body{
     width: 100%;
-    background-color: $amarillo;
-    header{
-    text-align: center;
-    font-family: 'Prata', serif;
-    font-style: italic;
-    
-    #titular{
-    font-size: 5rem;}
-    }
-    nav{
-        font-family: $font-nav;
-        font-size: 2rem;
-        ul{
-            li{
-                .nav-link{
-                     color: $negro;
-                }
-            }
-        }
-    }
-    main{
+   background-color: $amarillo;
+     header{
+
+      #titular{
+                margin: 0%;
+                background-color: $amarillo;
+                text-align: center;
+                font-family: 'Prata', serif;
+                font-style: italic;       
+                font-size: 5vw;}
         
+    
+     nav{
+        width: 100%;
+        background-color: $amarillo;
+        font-family: $font-nav;
+        font-size: 2rem;    
+            .nav-link{
+                     color: $negro;}
+            }
+        }  
+    
+     main{
+         width: 100%;
+        padding: 2vh;
+        background-color: $amarillo;
         font-family: $font-main;
-        element{
-            background-color: white;
-        .primerTitular{ 
+
+        .division{
+            margin-top: 1vh;
+            height: 2px;
+            width: 100%;
+            background-color: black;
+        }
+            element{
+                 padding-right: 1vh;
+                 background-color: white;
+              .primerTitular{ 
+                 font-weight: bold;
+                    font-style: italic;}
+                .subtittle{
                 font-weight: bold;
-                font-style: italic;}
-        .subtittle{
-            font-weight: bold;
-            padding-top: 10px;
-        }    
+                 padding-top: 10px;}    
+              p{
+                padding-top: 3vh;}
+            .subtitulo{
+                    color: grey;
+                }    
         }
         
         aside{
-            background-color: white;
+            
+            
+            background-color: $amarillo;
+            ul{
+                background-color: $amarillo;
             a{
                 text-decoration: none;
-                color: black;   
+                color: black;
+                }
+            .list-group-item{    
+                border: none;
+                background-color: $amarillo;
+                 #img-aside{
+                background-color: $amarillo;
+                }   
+                
+            }
             }
         }
+
     }
     footer{
-        padding-bottom: 3vh;
-        padding-left: 3vh;
-        padding-right: 3vh;
-        padding-top: 1vh;
-        .link2{
-            color: black;
-            padding: 2vh;
-        }
-    }
-}    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
+        width: 99.7vw;
+        padding-bottom: 3%;
+        // position: absolute;
+        text-align: center;
+        background-color: $amarillo;
+        padding-top: 0%;
+        
+       
+   
+        h2{
+            font-family: $font-nav;
+            font-size: 1.9rem;
+
+        }
+        
+        
+        .link2{
+            
+            color: black;
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+        .titulo-redes{
+            padding-bottom: 5%;
+        }
+    }  
+    
+}
+#contacto{
+    background-color: white;
+    padding: 2vh;
+    .primerTitular{ 
+        font-weight: bold;
+           font-style: italic;}
+        
+}
